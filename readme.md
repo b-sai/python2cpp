@@ -2,6 +2,8 @@
 
 The goal of this project is to parse Python script and translate it to C++
 
+The parser outputs the C++ code that would run inside of the main method. The parser does not output `int main(){ ... return 0; }`
+
 Since Python is an indented language, the project makes use of a symbol `<IN>` to indicate an indent. The **program does not interpret regular indents.**
 
 The program also ignores all whitespace. Since the indents are denoted by `<IN>` the ignore of whitespace does not inhibit the script.
