@@ -40,4 +40,4 @@ loops
 
 -   `advanced_while.txt` performs an incremental addition
 
--   `sum_square` sums the square [0,100]
+-   `sum_square.txt` sums the square [0,100]
