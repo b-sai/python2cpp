@@ -14,6 +14,10 @@ To run the script, run:
 
 If there is no file provided, the program runs with a sample prepopulted sameple input to the parser.
 
+Dependencies: `Lark`
+
+--------
+
 Here, I have described the purpose of each test_file:
 
 -   `arithmetic.txt` performs several arithmetic operations. The parser is able to perform addition, subtraction, multiplication, division between constants, and other variables. Currently the parser can only parse arithmetic between two variables. Another important note is that the parser can only be initialized. By this, I mean that the parser cannot perform `a = 1 + 2`. The parser can perform initializations to variables such as `a = 0`. This is because python dynamically parses and assigns data. My parses looks at the data type and creates an assignment based on that. The parser can only assign `int` and `string`.
