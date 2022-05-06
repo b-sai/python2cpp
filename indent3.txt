@@ -1,0 +1,13 @@
+if 1 > 2:
+<IN>b=3
+
+<IN>if 4 > 5:
+<IN><IN>c=4
+
+<IN><IN>if 1>2:
+<IN><IN><IN>d=5
+<IN><IN>if 2>3:
+<IN><IN><IN>e=5
+
+<IN>if 1 > 2:
+<IN><IN>f=4

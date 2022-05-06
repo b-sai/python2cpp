@@ -1,0 +1,7 @@
+total = 0
+b = 0
+i = 0
+while i < 100:
+<IN>b = i*i
+<IN>total = total + b
+<IN>i+=1
